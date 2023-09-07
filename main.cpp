@@ -16,7 +16,7 @@
 
 
 
-/* Type aliases definitions */
+/* Type aliases definitions if needed */
 using point_t   = API::Point;
 using vec3_t    = API::Vector3;
 

@@ -15,20 +15,6 @@ namespace API {
         double x{};
         double y{}; 
         double z{};
-
-
-        /*Point(const double x, const double y, const double z) 
-        : this->x(x),
-          this->y(y),
-          this->z(z) {}
-
-        constexpr double GetX(void) const noexcept { return x; };
-        constexpr double GetY(void) const noexcept { return y; };
-        constexpr double GetZ(void) const noexcept { return z; };
-
-        void SetX(const double x) noexcept { this->x = x; };
-        void SetY(const double y) noexcept { this->y = y; };
-        void SetZ(const double z) noexcept { this->z = z; };*/
     };
      
 
@@ -44,20 +30,6 @@ namespace API {
         double x{}; 
         double y{}; 
         double z{}; 
-
-
-        /*Vector3(const double x, const double y, const double z) 
-        : this->x(x),
-          this->y(y),
-          this->z(z) {}
-
-        constexpr double GetX(void) const noexcept { return x; };
-        constexpr double GetY(void) const noexcept { return y; };
-        constexpr double GetZ(void) const noexcept { return z; };
-
-        void SetX(const double x) noexcept { this->x = x; };
-        void SetY(const double y) noexcept { this->y = y; };
-        void SetZ(const double z) noexcept { this->z = z; };*/
     }; 
 
 
