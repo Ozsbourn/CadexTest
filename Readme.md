@@ -21,7 +21,6 @@ Second one - in some places there are moments that can be taken out into the sep
 
 ```c++
 //in the main.cpp
-
 std::vector<GEN::WCurveBase> vec;
 
 // and definition of alias in Generator.h
@@ -31,4 +30,4 @@ using WCurveBase = std::shared_ptr<API::CurveBase>; // Wrapper for shared pointe
 
 I guess that haven't big benefits in this simple case.
 
-Third thing - I'm not sure how made the simple to understandings output in this task, cause that wasn't specify in TS, so I left it as it is (maybe not comfortable to understandings).
+Third thing - I'm not sure how made the simple to understandings output in this task, cause that wasn't specify in TS and I made myself version of it, so I left it as it is (maybe not comfortable to understandings).
